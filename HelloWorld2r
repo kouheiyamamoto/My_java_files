@@ -1,0 +1,14 @@
+public class HelloWorld2r{
+  void run(String[] args){
+    if(/* 条件は前回の練習問題と同じ */){
+      this.greet(/* 引数に何を渡すか考えてください． */);
+    }
+    else{
+      this.greet(/* 引数に何を渡すか考えてください． */);
+    }
+  }
+  void greet(/* 引数となる変数を宣言してください */){
+    System.out.printf("Hello, %s%n", 
+        /* ここに何が来るでしょうか． */);
+  }
+}

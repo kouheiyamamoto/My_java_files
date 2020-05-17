@@ -1,0 +1,46 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScoreAnalyzer3",
+            "request": "launch",
+            "mainClass": "ScoreAnalyzer3",
+            "projectName": "dp1_3ddaafa7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ScoreAnalyzer2",
+            "request": "launch",
+            "mainClass": "ScoreAnalyzer2",
+            "projectName": "dp1_3ddaafa7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sorter",
+            "request": "launch",
+            "mainClass": "Sorter",
+            "projectName": "dp1_3ddaafa7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ExamAnalyzer",
+            "request": "launch",
+            "mainClass": "ExamAnalyzer",
+            "projectName": "dp1_3ddaafa7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - generatePrimes",
+            "request": "launch",
+            "mainClass": "generatePrimes",
+            "projectName": "dp1_3ddaafa7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Factorial2",
+            "request": "launch",
+            "mainClass": "Factorial2",
+            "projectName": "dp1_3ddaafa7"
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+第9講 MAPまとめ
+
+キー・・・木の中心
+バリュー・・・枝たち
+
+・そもそもMAPは配列の要素番号が数字じゃなくてなんでもいけるやつみたいな感じのやつ
+・HashMapとTreeMapは意味は同じ、２つを入れ替えてもどっちでも対応できる
+・Mapてほぼリストとおんなじ感じ
+
+
+// 基本的なマップの宣言の仕方
+// <キーの型, バリューの型の順番になる>
+HashMap<String, Integer> map = new HashMap<String, Integer>();
+→ただ後ろの<>の中身の型指定はしなくていいだから・・・
+HashMap<String, Integer> map = new HashMap<>();
+でもいけちゃうよ
+
+MAPに対する操作
+・データを追加するput()メソッド
+・データを取得するget()メソッド
+・データを削除するremove()メソッド
+・データのサイズを確認するsize()メソッド
+
+！注意点！
+MAPには順番が存在しないため, for(Integer i = 0; i < 3; i++){}
+みたいな繰り返しの記述が使えない。
+
+// 書くとしたらこんな感じ
+// これはiterator型を使う方法
+for (Iterator<Map.Entry<String, Complex>> iterator = map.entrySet().iterator(); iterator.hasNext(); ){
+  Map.Entry<String, Complex> entry = iterator.next();
+  String key = entry.getKey();
+  Complex value = entry.getValue();
+  // ここに繰り返しの処理を書く．
+}
+
+// 拡張for文を使う方法
+for(Map.Entry<String, Complex> entry: list.entrySet()){
+String key = entry.getKey();
+  Complex value = entry.getValue();
+  // ここに繰り返しの処理を書く．
+}

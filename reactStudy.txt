@@ -1,0 +1,16 @@
+5月13日　サポーターズ開催　react勉強会
+
+　京都大学　工学部　工業化学科　4回生　宮川龍太郎
+
+/*
+　https://dragon-taro.com/college/post-660/ ：なぜ化学系の学部からIT系の企業に進んだのか？
+　https://twitter.com/DragonTaro1031 :宮川さんのツイッター
+　http://company.baseconnect.in/programming-bootcamp/ ： Bootcamp勉強会のページ
+*/
+
+・フロントエンドとは
+・javascriptの言語の書き方の特徴の話
+・コンポーネント：一つ一つの部品
+・rubyonrailsとかtypescriptで作ったwebアプリの紹介
+・コンポーネント設計方法
+・reactの設計パターンはpartごとの組み合わせ
